@@ -1,7 +1,7 @@
-let name;
-let admin;
+'use strict'
 
-name = "John";
+const name = "John";
+let admin;
 admin = name;
 
 alert(admin);
@@ -9,5 +9,5 @@ alert(admin);
 let ourPlanet;
 let currentUserName;
 
-let num = '10' + 10;
+const num = '10' + 10;
 console.log(typeof 'num');
